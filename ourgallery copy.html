@@ -1,0 +1,222 @@
+--- 
+layout: page
+title: Our Gallery
+text: Exemplary Engineering Solutions, Explore Our Gallery Today!
+titles: Our Gallery - Galaxy Enterprise
+drop: active
+---
+
+
+<section class="page-title page-title-1" id="page-title">
+    <div class="page-title-wrap bg-overlay bg-overlay-dark-2">
+      <div class="bg-section"><img src="assets/images/M_Header/Gallery.png" alt="Background"/></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-5">
+            <div class="title">
+              <h1 class="title-heading">{{ page.title }}</h1>
+              <p class="title-desc">{{ page.text }}</p>
+              <div class="title-action"> <a class="btn btn--primary" href="services.html"> <span>our services</span><i class="energia-arrow-right"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="breadcrumb-wrap">
+      <div class="container">
+        <ol class="breadcrumb d-flex">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="">Company</a></li>
+          <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+        </ol>
+        <!-- End .row-->
+      </div>
+    </div>
+    <!-- End .container-->
+  </section>
+
+  
+
+  
+<section class="projects projects-modern projects-modern-3" id="projects-modern-3">
+  <div class="container">
+    <div class="row"> 
+      <div class="col-12">
+        <!-- Start .projects-filter-->
+        <div class="projects-filter">
+          <ul class="list-inline mb-0">
+            <li><a class="active-filter" href="javascript:void(0)" data-filter="*">All</a></li>
+            <li><a href="javascript:void(0)" data-filter=".filter-AmcAntenna">AMCs of Aerial Antenna</a></li>
+            <li><a href="javascript:void(0)" data-filter=".filter-AmcSwitch">AMCs Of Electrical Switchboard</a></li>
+            
+            <li><a href="javascript:void(0)" data-filter=".filter-AmcGenerate">AMC of Diesel Generators</a></li>
+            <li><a href="javascript:void(0)" data-filter=".filter-AmcRRC">Repair Rate Contract (RRC)</a></li>
+            <li><a href="javascript:void(0)" data-filter=".filter-REW" >Rewinding of Alternator</a></li><br><br>
+            <li><a href="javascript:void(0)" data-filter=".filter-Crane" >Hire of 170 Tons Telescopic Crane</a></li>
+            <li><a href="javascript:void(0)" data-filter=".filter-Fend" >Fender Repair</a></li>
+            <li><a href="javascript:void(0)" data-filter=".filter-OTHER">Other</a></li>
+           
+          </ul>
+        </div>
+        <!-- End .projects-filter-->
+      </div>
+    </div>
+    <!-- End .row-->
+    <div class="row" id="projects-all">
+
+      {% for image in site.data.gallery.AmcAntenna %}
+      <!-- End .AMCs-->
+     <div class="col-12 col-md-6 col-lg-4 project-item filter-AmcAntenna">
+       <div class="project-panel" data-hover="">
+        <div class="project-panel-holder">
+          <div class="project-img"><img src="{{ image.image_path }}" alt=" item"/>
+            <div class="project-hover">
+              <div class="project-action">
+                <div class="project-zoom"></i><a class="img-gallery-item" href="{{ image.image_path }}" title="AMCs of Aerial Antenna"></a></div>
+              </div>
+              <!-- End .project-action -->
+            </div>
+            <!-- End .project-hover-->
+          </div>
+          <!-- End .project-img-->
+        </div>
+       </div>
+     </div>
+   
+     {% endfor %}
+    
+     {% for image in site.data.gallery.AmcSwitch %}
+     <!-- End .AMCs-->
+    <div class="col-12 col-md-6 col-lg-4 project-item filter-AmcSwitch">
+      <div class="project-panel" data-hover="">
+       <div class="project-panel-holder">
+         <div class="project-img"><img src="{{ image.image_path }}" alt=" item"/>
+           <div class="project-hover">
+             <div class="project-action">
+               <div class="project-zoom"></i><a class="img-gallery-item" href="{{ image.image_path }}" title="AMC Of Electrical Switchboard"></a></div>
+             </div>
+             <!-- End .project-action -->
+           </div>
+           <!-- End .project-hover-->
+         </div>
+         <!-- End .project-img-->
+       </div>
+      </div>
+    </div>
+  
+    {% endfor %}
+    
+    {% for image in site.data.gallery.AmcGenerate %}
+    <!-- End .AMCs-->
+   <div class="col-12 col-md-6 col-lg-4 project-item filter-AmcGenerate">
+     <div class="project-panel" data-hover="">
+      <div class="project-panel-holder">
+        <div class="project-img"><img src="{{ image.image_path }}" alt=" item"/>
+          <div class="project-hover">
+            <div class="project-action">
+              <div class="project-zoom"><a class="img-gallery-item" href="{{ image.image_path }}" title="AMC of Diesel Generators"></a></div>
+            </div>
+            <!-- End .project-action -->
+          </div>
+          <!-- End .project-hover-->
+        </div>
+        <!-- End .project-img-->
+      </div>
+     </div>
+   </div>
+ 
+   {% endfor %}
+   
+   {% for image in site.data.gallery.AmcRRC %}
+   <!-- End .AMCs-->
+  <div class="col-12 col-md-6 col-lg-4 project-item filter-AmcRRC">
+    <div class="project-panel" data-hover="">
+     <div class="project-panel-holder">
+       <div class="project-img"><img src="{{ image.image_path }}" alt=" item"/>
+         <div class="project-hover">
+           <div class="project-action">
+             <div class="project-zoom"><a class="img-gallery-item" href="{{ image.image_path }}" title="Repair Rate Contract (RRC)"></a></div>
+           </div>
+           <!-- End .project-action -->
+         </div>
+         <!-- End .project-hover-->
+       </div>
+       <!-- End .project-img-->
+     </div>
+    </div>
+  </div>
+
+  {% endfor %}
+
+  {% for image in site.data.gallery.REW %}
+  <!-- End .AMCs-->
+ <div class="col-12 col-md-6 col-lg-4 project-item filter-REW">
+   <div class="project-panel" data-hover="">
+    <div class="project-panel-holder">
+      <div class="project-img"><img src="{{ image.image_path }}" alt=" item"/>
+        <div class="project-hover">
+          <div class="project-action">
+            <div class="project-zoom"><a class="img-gallery-item" href="{{ image.image_path }}" title="Rewinding of Alternator"></a></div>
+          </div>
+          <!-- End .project-action -->
+        </div>
+        <!-- End .project-hover-->
+      </div>
+      <!-- End .project-img-->
+    </div>
+   </div>
+ </div>
+
+ {% endfor %}
+   
+
+ {% for image in site.data.gallery.Crane %}
+  <!-- End .AMCs-->
+ <div class="col-12 col-md-6 col-lg-4 project-item filter-Crane">
+   <div class="project-panel" data-hover="">
+    <div class="project-panel-holder">
+      <div class="project-img"><img src="{{ image.image_path }}" alt=" item"/>
+        <div class="project-hover">
+          <div class="project-action">
+            <div class="project-zoom"><a class="img-gallery-item" href="{{ image.image_path }}" title="Hire of 170 Tons Telescopic Crane"></a></div>
+          </div>
+          <!-- End .project-action -->
+        </div>
+        <!-- End .project-hover-->
+      </div>
+      <!-- End .project-img-->
+    </div>
+   </div>
+ </div>
+
+ {% endfor %}
+
+
+ {% for image in site.data.gallery.Fend %}
+  <!-- End .AMCs-->
+ <div class="col-12 col-md-6 col-lg-4 project-item filter-Fend">
+   <div class="project-panel" data-hover="">
+    <div class="project-panel-holder">
+      <div class="project-img"><img src="{{ image.image_path }}" alt=" item"/>
+        <div class="project-hover">
+          <div class="project-action">
+            <div class="project-zoom"><a class="img-gallery-item" href="{{ image.image_path }}" title="Fender Repair"></a></div>
+          </div>
+          <!-- End .project-action -->
+        </div>
+        <!-- End .project-hover-->
+      </div>
+      <!-- End .project-img-->
+    </div>
+   </div>
+ </div>
+
+ {% endfor %}
+
+
+</div>
+   
+  </div>
+  <!-- End .container-->
+</section>
+

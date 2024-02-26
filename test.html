@@ -1,0 +1,102 @@
+<li class="nav-item" {{ page.status }} id="services" data-hover=""><a href="services.html"><span>Services</span></a></li>
+
+
+<ul class="navbar-nav active">
+    {% if page.active == "Home Main - Galaxy Enterprise" %}
+    <li class="nav-item Active" id="home" data-hover=""><a href="index.html"><span>Home</span></a></li>
+   
+    {% else %}
+    <li class="nav-item" id="home" data-hover=""><a href="index.html"><span>Home</span></a></li>
+    {% endif %}
+    {% if page.active == "Our Services" %}
+    <li class="nav-item Active" id="services" data-hover=""><a href="services.html"><span>Services</span></a></li>
+   
+    {% else %}
+    <li class="nav-item" id="services" data-hover=""><a href="services.html"><span>Services</span></a></li>
+    {% endif %}
+
+</ul>
+        <!-- Start .Menu-links-->
+        <ul class="navbar-nav active">
+            <li class="nav-item active" id="home" data-hover=""><a href="index.html"><span>Home</span></a></li>
+            <li class="nav-item has-dropdown" data-hover=""><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>Company</span></a>
+                          <ul class="dropdown-menu">
+                            <li class="nav-item"><a href="aboutus.html"><span>about us</span></a></li>
+                            <li class="nav-item"><a href="ourgallery.html"><span>Our Gallery</span></a></li>
+                            <li class="nav-item"><a href="team.html"><span>Leadership Team</span></a></li>
+                            <li class="nav-item"><a href="awards.html"><span>Awards &amp; Recognition</span></a></li>
+                           
+                          </ul>
+            </li>
+            <li class="nav-item" id="services" data-hover=""><a href="services.html"><span>Services</span></a></li>
+            <li class="nav-item" id="projects" data-hover=""><a href="projects.html"><span>Projects</span></a></li>
+            <li class="nav-item" id="clients" data-hover=""><a href="clients.html"><span>Clients</span></a></li>
+            <li class="nav-item" id="contact" data-hover=""><a href="contactus.html"><span>Contact Us</span></a></li>
+           
+          </ul>
+
+
+          {% if page.titles == "Our Projects - Galaxy Enterprise" %}
+          <li class="nav-item active" id="projects" data-hover=""><a href="projects.html"><span>Projects</span></a></li>
+ 
+          {% else %}
+          <li class="nav-item" id="projects" data-hover=""><a href="projects.html"><span>Projects</span></a></li>
+          {% endif %}
+
+          {% if page.titles == "Our Clients - Galaxy Enterprise" %}
+          <li class="nav-item active" id="clients" data-hover=""><a href="clients.html"><span>Clients</span></a></li>
+ 
+          {% else %}
+          <li class="nav-item" id="clients" data-hover=""><a href="clients.html"><span>Clients</span></a></li>
+          {% endif %}
+
+          {% if page.titles == "Contact Us - Galaxy Enterprise" %}
+          <li class="nav-item active" id="contact" data-hover=""><a href="contactus.html"><span>Contact Us</span></a></li>
+ 
+          {% else %}
+          <li class="nav-item" id="contact" data-hover=""><a href="contactus.html"><span>Contact Us</span></a></li>
+          {% endif %}
+
+          {% if page.drop == "active" %}
+          <li class="nav-item has-dropdown" data-hover=""><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>Company</span></a>
+            <ul class="dropdown-menu">
+
+              {% if page.titles == "About Us - Galaxy Enterprise" %}  
+              <li class="nav-item active"><a href="aboutus.html"><span>about us</span></a></li>
+              {% else %}
+              <li class="nav-item"><a href="aboutus.html"><span>about us</span></a></li>
+              {% endif %}
+
+              {% if page.titles == "Our Gallery - Galaxy Enterprise" %}  
+              <li class="nav-item active"><a href="ourgallery.html"><span>Our Gallery</span></a></li>
+              {% else %}
+              <li class="nav-item"><a href="ourgallery.html"><span>Our Gallery</span></a></li>
+              {% endif %}
+
+              {% if page.titles == "Leadership Team - Galaxy Enterprise" %} 
+              <li class="nav-item active"><a href="team.html"><span>Leadership Team</span></a></li>
+              {% else %}
+              <li class="nav-item"><a href="team.html"><span>Leadership Team</span></a></li>
+              {% endif %}
+
+              {% if page.titles == "Awards & Recognitions - Galaxy Enterprise" %}  
+              <li class="nav-item active"><a href="awards.html"><span>Awards &amp; Recognition</span></a></li>
+              {% else %}
+              <li class="nav-item"><a href="awards.html"><span>Awards &amp; Recognition</span></a></li>
+              {% endif %}
+
+
+            </ul>
+            {% else %}
+            <li class="nav-item has-dropdown" data-hover=""><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>Company</span></a>
+                <ul class="dropdown-menu">
+
+            
+                  <li class="nav-item"><a href="aboutus.html"><span>about us</span></a></li>
+                  <li class="nav-item"><a href="ourgallery.html"><span>Our Gallery</span></a></li>
+                  <li class="nav-item"><a href="team.html"><span>Leadership Team</span></a></li>
+                  <li class="nav-item"><a href="awards.html"><span>Awards &amp; Recognition</span></a></li>
+                 
+                </ul>
+            {% endif %}
+</li>

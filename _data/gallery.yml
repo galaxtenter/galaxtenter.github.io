@@ -1,0 +1,118 @@
+AmcAntenna:
+- image_path: assets/images/M_Gallery/Amc_Of_Aerial_Antenna/1.png
+  image_filter: AmcAntenna
+- image_path: assets/images/M_Gallery/Amc_Of_Aerial_Antenna/2.png
+  image_filter: AmcAntenna
+- image_path: assets/images/M_Gallery/Amc_Of_Aerial_Antenna/3.png
+  image_filter: AmcAntenna
+- image_path: assets/images/M_Gallery/Amc_Of_Aerial_Antenna/4.png
+  image_filter: AmcAntenna
+- image_path: assets/images/M_Gallery/Amc_Of_Aerial_Antenna/5.png
+  image_filter: AmcAntenna
+- image_path: assets/images/M_Gallery/Amc_Of_Aerial_Antenna/6.png
+  image_filter: AmcAntenna
+- image_path: assets/images/M_Gallery/Amc_Of_Aerial_Antenna/7.png
+  image_filter: AmcAntenna
+
+ 
+AmcSwitch:
+- image_path: assets/images/M_Gallery/AMC_Of_Electrical_Switchboard/8.png
+- image_path: assets/images/M_Gallery/AMC_Of_Electrical_Switchboard/9.png
+- image_path: assets/images/M_Gallery/AMC_Of_Electrical_Switchboard/10.png
+- image_path: assets/images/M_Gallery/AMC_Of_Electrical_Switchboard/11.png
+
+AmcGenerate:
+- image_path: assets/images/M_Gallery/AMC_Of_Diesel_Generators/15.png
+- image_path: assets/images/M_Gallery/AMC_Of_Diesel_Generators/16.png
+- image_path: assets/images/M_Gallery/AMC_Of_Diesel_Generators/17.png
+- image_path: assets/images/M_Gallery/AMC_Of_Diesel_Generators/18.png
+- image_path: assets/images/M_Gallery/AMC_Of_Diesel_Generators/20.png
+- image_path: assets/images/M_Gallery/AMC_Of_Diesel_Generators/21.png
+- image_path: assets/images/M_Gallery/AMC_Of_Diesel_Generators/22.png
+- image_path: assets/images/M_Gallery/AMC_Of_Diesel_Generators/23.png
+- image_path: assets/images/M_Gallery/AMC_Of_Diesel_Generators/24.png
+
+AmcRRC:
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/25.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/26.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/27.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/28.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/29.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/30.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/31.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/32.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/33.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/34.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/35.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/36.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/37.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/38.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/39.png
+- image_path: assets/images/M_Gallery/Repair_Rate_Contract/40.png
+
+REW:
+- image_path: assets/images/M_Gallery/Rewinding_Of_Alternator/41.png
+- image_path: assets/images/M_Gallery/Rewinding_Of_Alternator/42.png
+- image_path: assets/images/M_Gallery/Rewinding_Of_Alternator/43.png
+- image_path: assets/images/M_Gallery/Rewinding_Of_Alternator/44.png
+- image_path: assets/images/M_Gallery/Rewinding_Of_Alternator/45.png
+- image_path: assets/images/M_Gallery/Rewinding_Of_Alternator/46.png
+
+Crane:
+- image_path: assets/images/M_Gallery/Crane/47.png
+- image_path: assets/images/M_Gallery/Crane/48.png
+
+Fend:
+- image_path: assets/images/M_Gallery/Fender_Repair/49.png
+- image_path: assets/images/M_Gallery/Fender_Repair/50.png
+
+HDG:
+- image_path: assets/images/M_Gallery/Hire_of_Diesel_Generators/51.png
+- image_path: assets/images/M_Gallery/Hire_of_Diesel_Generators/52.png
+
+MJW:
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/53.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/54.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/55.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/56.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/57.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/58.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/59.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/60.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/61.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/62.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/63.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/64.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/65.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/66.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/67.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/68.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/69.png
+- image_path: assets/images/M_Gallery/Miscellaneous_Job_Works/70.png
+
+ITM:
+- image_path: assets/images/M_Gallery/INS_Trata_MCCB/71.png
+- image_path: assets/images/M_Gallery/INS_Trata_MCCB/72.png
+- image_path: assets/images/M_Gallery/INS_Trata_MCCB/73.png
+- image_path: assets/images/M_Gallery/INS_Trata_MCCB/74.png
+- image_path: assets/images/M_Gallery/INS_Trata_MCCB/75.png
+- image_path: assets/images/M_Gallery/INS_Trata_MCCB/76.png
+- image_path: assets/images/M_Gallery/INS_Trata_MCCB/77.png
+- image_path: assets/images/M_Gallery/INS_Trata_MCCB/78.png
+
+
+SFW:
+- image_path: assets/images/M_Gallery/Supply_Of_Fresh_Water_and_Feed_Water/79.png
+- image_path: assets/images/M_Gallery/Supply_Of_Fresh_Water_and_Feed_Water/80.png
+- image_path: assets/images/M_Gallery/Supply_Of_Fresh_Water_and_Feed_Water/81.png
+- image_path: assets/images/M_Gallery/Supply_Of_Fresh_Water_and_Feed_Water/82.png
+- image_path: assets/images/M_Gallery/Supply_Of_Fresh_Water_and_Feed_Water/83.png
+- image_path: assets/images/M_Gallery/Supply_Of_Fresh_Water_and_Feed_Water/84.png
+- image_path: assets/images/M_Gallery/Supply_Of_Fresh_Water_and_Feed_Water/85.png
+- image_path: assets/images/M_Gallery/Supply_Of_Fresh_Water_and_Feed_Water/86.png
+- image_path: assets/images/M_Gallery/Supply_Of_Fresh_Water_and_Feed_Water/87.png
+- image_path: assets/images/M_Gallery/Supply_Of_Fresh_Water_and_Feed_Water/88.png
+
+ALB:
+- image_path: assets/images/M_Gallery/Hire_of_Load_Bank/89.png
+

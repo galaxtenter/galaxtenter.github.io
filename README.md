@@ -1,1 +1,0 @@
-# galaxtenter.github.io
